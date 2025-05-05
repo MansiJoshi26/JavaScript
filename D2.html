@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Double click</title>
+</head>
+<body>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, animi, dignissimos iure odit a eaque fuga autem tempora adipisci eius cupiditate inventore voluptas ea maxime impedit, rerum repellendus aspernatur earum.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias neque, ratione repellendus sint incidunt dolor at quas nostrum quisquam tenetur, consequatur optio libero maiores aliquid enim laboriosam fugit sapiente voluptas?
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, aspernatur illum? Nihil perspiciatis beatae aperiam quo dolorum omnis explicabo facilis, harum vero. Sint officia molestias quaerat. Dicta et autem beatae.
+    </p>
+    <button id="btn">Click</button>
+    <script>
+
+        let a=document.getElementsByTagName("p");
+        let b=document.getElementById("btn");
+        b.addEventListener('dblclick',()=>{
+
+            a[0].textContent="HII Content Changed";
+
+        });
+
+    </script>
+</body>
+</html>
