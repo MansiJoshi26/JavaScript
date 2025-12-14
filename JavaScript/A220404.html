@@ -1,0 +1,10 @@
+<script>
+    let input=[{name:"John" , age:13},{name:"Mark" , age:56},{name:"Rachel" , age:45},{name:"Nate" , age:67},{name:"Jennifier" , age:65}];
+
+    let output=input.map(ele=>ele.age);
+    let  max=Math.max(...output);
+    let mini=Math.min(...output);
+    let diff=max-mini;
+    let arr=[mini,max,diff];
+    document.write(arr);
+</script>

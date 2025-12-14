@@ -1,0 +1,21 @@
+<script>
+
+let a =parseInt(prompt("Enter the number  :"));
+let b =parseInt(prompt("Enter the number  :"));
+
+let max=a>b?a:b;
+let lcm=max;
+while(true){
+
+    if(lcm%a==0&& lcm%b==0){
+        
+        break;
+
+    }
+    lcm++;
+
+}
+document.write(lcm);
+
+
+</script>

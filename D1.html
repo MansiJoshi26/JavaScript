@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click to Change text</title>
+</head>
+<body>
+    <p id="n1" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum qui quidem temporibus, in nobis voluptatum. Debitis ut nihil asperiores enim nam sapiente harum saepe iure similique. Quisquam repellat in eos.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt accusantium corrupti temporibus dolorum quidem nisi pariatur. Voluptatum temporibus vitae quaerat ea eligendi, sunt hic cupiditate modi omnis, ipsam placeat blanditiis.</p>
+    <button id="changeBtn">Change Text</button>
+    <script>
+        let a=document.getElementById("n1");
+        let b=document.getElementById("changeBtn");
+        b.addEventListener('click',()=>{
+
+            a.textContent="Mansi";
+
+        });
+    </script>
+</body>
+</html>

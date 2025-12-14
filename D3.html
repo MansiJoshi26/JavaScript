@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode Toggle</title>
+    <style>
+        body{
+            background-color: black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(233, 210, 180);
+
+            padding:20px;          
+
+        }
+    button{
+            padding: 20px;
+            font-size: 10px;
+            cursor: pointer;
+        }
+        .darkmode{
+            background-color: antiquewhite;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias amet tempora necessitatibus minus animi error eum. Quam consequuntur eaque debitis culpa, corrupti ipsa nostrum praesentium impedit corporis rerum, reiciendis expedita.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint officiis laboriosam odio assumenda vel harum dolor praesentium dolore? Fugit eaque facere optio consequatur sunt praesentium, omnis ducimus maxime dolor quibusdam.
+        Dolor est officiis repellat ipsum earum tempora et rem velit nobis perspiciatis quisquam corrupti, quam quidem corporis eum cumque adipisci exercitationem minima sint neque cupiditate aut facilis laborum! Aliquid, laudantium.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, odit! Minima facere porro esse beatae libero quibusdam, dignissimos laudantium expedita saepe excepturi culpa unde nulla consequatur, neque at ut quis.
+        Odio esse in cupiditate! Atque autem ab recusandae eum minima ratione, aspernatur modi molestias maiores nostrum officia et dolore. Harum sit dicta possimus, eos dolorem nihil quas eligendi nemo. Aliquam!
+        At a quam, hic sint quasi, quos illum illo aliquam, porro quae eveniet. Animi consectetur labore modi atque et, quisquam in consequatur omnis a dolore fugit accusamus nisi impedit? Officia!
+    </p>
+   <button type="toggle" id="b1">Black</button> 
+   <button type="toggle" id="b2">White</button> 
+
+   <script>
+
+    const a=document.getElementById("b1");
+    const b=document.getElementById("b2");
+    a.addEventListener('click',()=>{document.body.classList.remove("darkmode")});
+    b.addEventListener('click',()=>{document.body.classList.add("darkmode");});
+   </script>
+</body>
+</html>
