@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+  
+const f1=(n)=>{
+  return new Promise((resolve,reject)=>{
+    n%2? reject("odd"):resolve("even")
+  });
+};
+
+f1(10).then(result=>{
+  document.body.innerHTML=result;
+}).catch(err=>{
+  document.body.innerHTML=err;
+})
+
+let a=[1,2,3];
+a.push(44);
+console.log(a);
+a.pop();
+console.log(a);
+let b=a.map(a=>{return a*a})
+console.log(b.filter(a=>{return a%3===0 }))
+  </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <input type="text" id="num">
+<button onclick="getValue()">Submit</button>
+<p id="output"></p>
+
+  <script>
+
+function getValue() {
+  let value = document.getElementById("num").value;
+  document.getElementById("output").innerText = value;
+}
+
+
+/*let square = prompt("enter the no. saparate by space")
+            .split(" ").map(Number).map(n=>n*n);
+            console.log(square);*/
+
+  </script>
+</body>
+</html>
