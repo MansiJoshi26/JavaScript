@@ -1,0 +1,29 @@
+.container{
+    max-width:500px;
+    margin:40px auto;
+    padding:20px;
+    border:1px solid #ccc;
+    border-radius:6px;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin-bottom:10px;
+    border:1px solid #ccc;
+    border-radius:4px;
+}
+
+button{
+    padding:8px 15px;
+    cursor:pointer;
+    background-color: #4a6f9a;
+    color: white;
+    border-radius: 4px;
+}
+
+.result p{
+    margin:6px 2px;
+    color: #4a6f9a;
+    /*background-color: #8a9474;*/
+}
