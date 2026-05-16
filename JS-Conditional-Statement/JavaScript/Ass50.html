@@ -1,0 +1,14 @@
+<script>
+    let a = parseInt(prompt("Enter the starting number:"));
+    let b = parseInt(prompt("Enter the ending number:"));
+
+    for (let j = a; j <= b; j++) {
+        let reversed = j.toString().split("").reverse().join("");
+
+        if (j.toString() === reversed) {
+            document.write("Palindrome: " + j + "<br>");
+        } else {
+            document.write("Not a Palindrome: " + j + "<br>");
+        }
+    }
+</script>

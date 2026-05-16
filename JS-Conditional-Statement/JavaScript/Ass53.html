@@ -1,0 +1,22 @@
+<script>
+ let a=parseInt(prompt("Enter the number"));
+    let b=parseInt(prompt("Enter the number")); 
+    
+
+for(let j=a;j<=b;i++){
+let arm = 0;
+    let numStr = a.toString();
+    let n = numStr.length;
+    
+    for (let i = 0; i < n; i++) {
+        let digit = parseInt(numStr[i]);
+        arm += Math.pow(digit, n);
+    }
+    
+    if (arm === j) {
+        document.write(j + " is an Armstrong number.");
+    } else {
+        document.write(j + " is not an Armstrong number.");
+    }
+}
+</script>

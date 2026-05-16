@@ -1,0 +1,64 @@
+{
+  "results": [
+    {
+      "name": { "first": "Mansi", "last": "Joshi" },
+      "email": "mansi@example.com",
+      "location": { "city": "Indore" },
+      "picture": { "large": "https://i.pravatar.cc/150?img=5" }
+    },
+    {
+      "name": { "first": "Rahul", "last": "Sharma" },
+      "email": "rahul@example.com",
+      "location": { "city": "Bhopal" },
+      "picture": { "large": "https://i.pravatar.cc/150?img=8" }
+    },
+    {
+      "name": { "first": "Anjali", "last": "Verma" },
+      "email": "anjali@example.com",
+      "location": { "city": "Delhi" },
+      "picture": { "large": "https://i.pravatar.cc/150?img=9" }
+    },
+    {
+      "name": { "first": "Amit", "last": "Patel" },
+      "email": "amit@example.com",
+      "location": { "city": "Ahmedabad" },
+      "picture": { "large": "https://i.pravatar.cc/150?img=12" }
+    },
+    {
+      "name": { "first": "Sneha", "last": "Kulkarni" },
+      "email": "sneha@example.com",
+      "location": { "city": "Pune" },
+      "picture": { "large": "https://i.pravatar.cc/150?img=15" }
+    },
+    {
+      "name": { "first": "Rohan", "last": "Mehta" },
+      "email": "rohan@example.com",
+      "location": { "city": "Mumbai" },
+      "picture": { "large": "https://i.pravatar.cc/150?img=20" }
+    },
+    {
+      "name": { "first": "Priya", "last": "Singh" },
+      "email": "priya@example.com",
+      "location": { "city": "Lucknow" },
+      "picture": { "large": "https://i.pravatar.cc/150?img=25" }
+    },
+    {
+      "name": { "first": "Karan", "last": "Malhotra" },
+      "email": "karan@example.com",
+      "location": { "city": "Chandigarh" },
+      "picture": { "large": "https://i.pravatar.cc/150?img=30" }
+    },
+    {
+      "name": { "first": "Neha", "last": "Gupta" },
+      "email": "neha@example.com",
+      "location": { "city": "Jaipur" },
+      "picture": { "large": "https://i.pravatar.cc/150?img=35" }
+    },
+    {
+      "name": { "first": "Arjun", "last": "Reddy" },
+      "email": "arjun@example.com",
+      "location": { "city": "Hyderabad" },
+      "picture": { "large": "https://i.pravatar.cc/150?img=40" }
+    }
+  ]
+}

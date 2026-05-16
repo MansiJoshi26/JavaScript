@@ -1,0 +1,26 @@
+<script>
+    let a =parseInt(prompt("Enter the number  :"));
+    let b =parseInt(prompt("Enter the number  :"));
+    let result=0;
+    
+    for(let j=a;j<=b;j++){
+   
+    for(let i=0;i<j;i++){
+
+        if(a%i==0){
+
+            result += i;
+
+        }
+      
+    }
+    document.writeln(result);
+    if(a==result){
+        document.writeln("<br>Perfect No.");
+    }
+    else{
+        document.writeln(" <br>Not a Perfect No.");
+    }
+    }
+
+</script>
